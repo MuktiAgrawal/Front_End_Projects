@@ -1,6 +1,6 @@
 :root{
-    --blur:10px;
-    --spacing:10px;
+    --blur:5px;
+    --spacing:20px;
     --base:#d79803;
 }
 body{
