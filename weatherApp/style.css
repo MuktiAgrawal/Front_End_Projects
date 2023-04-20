@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: 'Noto-sans',sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-image:url(david-marcu-78A265wPiO4-unsplash.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    width:70%;
+    max-width:620px;
+    padding:10px 20px;
+    border-radius: 30px;
+}
+.search-bar input{
+    flex:1;
+    padding:10px 20px;
+    border:none;
+    outline:none;
+    font-size:20px;
+    background: transparent;
+}
+::placeholder{
+    color:rgb(21, 21, 21);
+}
+.search-button{
+    cursor:pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:none;
+    background-color: #dbd8d883;
+}
+.search-button img{
+    width: 35px;
+}
+.card{
+    margin-top:20px;
+    border-radius:40px;
+    width:70%;
+    height:550px;
+    max-width:600px;
+    min-width:300px;
+    background-color: #000000a8;
+    padding:36px;
+    color:white;
+}
+.fetched_data{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-evenly;  */
+}
+#place{
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+#temp{
+    color:#ffbdfba8;
+    font-size: 50px;
+    font-weight: 700;
+}
+#date{
+    display: block;
+}
+.day{
+    margin-bottom:20px;
+}
+.humid,.wind-speed{
+    margin-top:60px;
+    font-size:24px;
+}
+.info{
+    margin:10px;
+    display: inline;
+    font-size:20px;
+}
+.hide{
+    display:none;
+}
